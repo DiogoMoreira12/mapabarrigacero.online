@@ -1,0 +1,457 @@
+* {
+  font-family: sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: transparent;
+
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: linear-gradient(180deg, #2d67e9 0%, #01ae74 100%);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  height: 40vh;
+  width: 100%;
+}
+svg {
+  position: absolute;
+  z-index: -1;
+  top: 40vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  padding: 15px;
+  align-items: center;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftMenu {
+  align-items: center;
+  padding: 10px 25px 10px 25px;
+  background-color: #ffffff17;
+  border-style: dashed;
+  color: white;
+  font-size: 15px;
+  gap: 10px;
+  height: 30px;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ffffff;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.leftMenu img {
+  width: 100px;
+  padding-left: 1rem;
+}
+
+.saldoWrapper {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  color: white;
+  padding: 20px;
+}
+
+.saldoWrapper span {
+  font-weight: bold;
+}
+
+.saldoWrapper h2 {
+  margin: 0;
+  font-size: 35px;
+}
+
+section {
+  padding: 6%;
+}
+
+.wrapperCards {
+  margin: 6%;
+  border-radius: 25px;
+  border: 1px solid #2d67e9;
+}
+
+.first .card {
+  background-color: white !important;
+  background-image: none;
+}
+
+.saldofinal {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 19px !important;
+  background-image: linear-gradient(150deg, #01b375 0%, #2d67e9 100%);
+}
+
+.aproveite {
+  background-color: transparent;
+  background-image: linear-gradient(150deg, #2d67e91f 0%, #f2295b00 100%);
+  border: 1px solid #2d67e9;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: center;
+  padding: 5px 15px;
+  gap: 10px;
+  font-size: 17px;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #0f59ff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-image: linear-gradient(150deg, #2d67e938 0%, #f2295b00 50%);
+  border: 1px solid #2d67e9;
+  padding: 20px;
+  text-align: center;
+}
+
+.fa-long-arrow-alt-up {
+  background-color: #0f59ff;
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.card h2 {
+  font-size: 25px;
+  color: #000;
+  font-family: "Poppins";
+  font-weight: 900;
+}
+
+.btnGreen {
+  background-color: rgb(1, 165, 1);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 7px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.img-1 {
+  background-image: url("https://novidadesurpreendente.online/wp1/wp-content/uploads/2023/06/IMG_0168-1-min.jpg");
+  width: 100%;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 500px;
+}
+
+.img-2 {
+  background-image: url("https://novidadesurpreendente.online/wp1/wp-content/uploads/2023/06/IMG_0170-1-min.jpg");
+  width: 100%;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 500px;
+}
+
+.img-3 {
+  background-image: url("https://novidadesurpreendente.online/wp1/wp-content/uploads/2023/06/IMG_2088-1-min.jpg");
+  width: 100%;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 500px;
+}
+
+.img-4 {
+  background-image: url("https://novidadesurpreendente.online/wp1/wp-content/uploads/2023/06/IMG_2089-1-min.jpg");
+  width: 100%;
+  background-size: cover;
+  border: 2px solid black;
+  border-radius: 6px;
+  height: 500px;
+}
+
+.wrapperBtns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapperBtns a {
+  width: 50px;
+  display: flex;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  gap: 4px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.red {
+  background-color: #a70202;
+  border-style: none;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 0 13px 5px rgb(255 0 0 / 32%);
+}
+
+.orange {
+  background-color: #d06305;
+  border-style: none;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 0 13px 5px rgb(208 99 5 / 22%);
+}
+
+.yellow {
+  background-color: #c2a808;
+  border-style: none;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 0 13px 5px rgb(194 168 8 / 18%);
+}
+
+.green {
+  background-color: #68a404;
+  border-style: none;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 0 13px 5px rgb(104 164 4 / 23%);
+}
+
+.green-2 {
+  background-color: #139a05;
+  border-style: none;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: -1px 0 13px 5px rgb(24 255 0 / 16%);
+}
+
+.progressWrapper {
+  width: 100%;
+  display: flex;
+}
+
+.container {
+  width: 500px;
+  text-align: center;
+}
+
+.progress {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {
+  height: 18px;
+  background-color: #ee303c;
+  border-radius: 4px;
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-striped .progress-bar {
+  background-color: #03b498;
+  width: 100%;
+  animation: progressAnimationStrike 6s;
+}
+
+@keyframes progressAnimationStrike {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.shirt-icon {
+  background-color: #0f59ff;
+  padding: 13px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.pixBtn {
+  background-image: linear-gradient(150deg, #02B905 0%, #24E200 100%);
+  border-radius: 7px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.wrapperPix {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pixBtn svg {
+  position:  relative !important;
+  width: 20px !important;
+  color: white !important;
+  top: 0 !important;
+  z-index: 1 !important;
+}
+
+.d-none {
+  display: none;
+}
+
+/* AVALIADOR */
+.avl-img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+}
+
+.chat {
+  background-image: linear-gradient(270deg, #000000 0%, #142819 100%);
+  display: flex;
+  justify-content: center;
+}
+.chat-card {
+  background-color: white;
+  border-radius: 11px;
+  padding: 15px;
+  width: 43%;
+}
+.card-section {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.cards {
+  margin-bottom: 30px;
+}
+.title-chat {
+  margin-bottom: 20px;
+}
+.title-chat p {
+  font-size: 14px;
+}
+.avatar-card {
+  height: 50px;
+}
+.card-section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 10px;
+}
+.card-section-text h1,
+h6 {
+  margin: 0;
+}
+.card-section-text h1 {
+  color: #365899;
+  font-size: 14px;
+}
+.card-section-text h6 {
+  color: #1e1e1e;
+  font-family: "Roboto", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.card-section-footer p {
+  color: #93979f;
+  font-size: 11.5px;
+  font-weight: 400;
+}
+.mgn-left {
+  margin-left: 50px;
+  border-left: 1px solid rgb(188, 183, 183);
+  padding-left: 10px;
+}
+.card-chat-bottom {
+  display: flex;
+  align-items: center;
+}
+.card-chat-bottom img {
+  width: 20px;
+  height: 20px;
+}
+.card-chat-bottom {
+  font-size: 10px;
+  color: #0f59ff;
+}
+.avl-footer {
+  margin-bottom: 0px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://matrizdigital.site/wp-content/uploads/2022/12/istockphoto-1368034962-612x612-1.jpg);
+}
+.avl-footer-txt {
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+.avl-footer-txt p {
+  color: white;
+  font-size: 15px;
+}
+.avl-video {
+  width: 55%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .avl-img img {
+    width: 100%;
+  }
+  .chat-card {
+    width: 90%;
+  }
+  .avl-footer-txt {
+    width: 70%;
+  }
+  .avl-video {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+}
